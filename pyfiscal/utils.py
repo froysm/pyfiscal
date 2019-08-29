@@ -45,6 +45,8 @@ def remove_names(name):
         'LAS ', ' LAS ', 'LOS ', ' LOS ', 'MC ', 'MC ', 'MAC ', 'VON ', 'VAN ', ' Y '
     )
 
+    data = name
+
     for item in names:
         if item in name:
             data = name.replace(item, '')
